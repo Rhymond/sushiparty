@@ -1,0 +1,94 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10rem;
+}
+
+.content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 768px;
+    width: calc(100% - 30px);
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        width: calc(100% - 30px);
+        max-width: auto;
+    }
+}
+
+.logo {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.menu h2 {
+    color: #eeb326;
+}
+
+.menu h2 > span {
+    color: #fff;
+    font-size: .8rem;
+}
+
+.prices {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.price {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #eeb326;
+    vertical-align: top;
+    border-radius: 15px;
+    padding: 15px;
+    width: 25%;
+    height: 190px;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .prices {
+        flex-wrap: wrap;
+    }
+    .price {
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+        height: auto;
+    }
+}
+
+.price h3 {
+    margin: .5rem 0;
+}
+
+.price span {
+    font-size: 1.5rem;
+}
+
+.price p {
+    margin-top: 0;
+}
+
+.menu p {
+    margin-bottom: 2.5rem;
+}
+
+.is-1 {
+    font-size: 2em;
+    margin: .67em 0;
+    font-weight: bold;
+}
